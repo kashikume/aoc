@@ -1,0 +1,8 @@
+2,4,   bst a     b = a % 8
+1,7,   bxl 7     b = b xor 7
+7,5,   cdv b     c = a / 2^b
+0,3,   adv 3     a = a / 2^3 - a = a / 8
+1,7,   bxl 7     b = b xor 7
+4,1,   bxc 1     b = b xor c
+5,5,   out b     b%8
+3,0    jnz 0
